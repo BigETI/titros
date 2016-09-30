@@ -1,0 +1,9 @@
+Controls
+
+A or Left	= Move tetrimino left
+D or Right	= Move tetrimino right
+W or Up		= Smash tetrimino
+S or Down	= Lower tetrimino
+Q or Enter	= Rotate tetrimino left
+E or Space	= Rotate tetrimino right
+Esc		= Pause/Exit

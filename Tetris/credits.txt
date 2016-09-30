@@ -1,0 +1,41 @@
+Credits
+
+ - License
+
+	All rights are reserved to "The Tetris Company, LLC (TTC)".
+	This game is intended to be a free to play version of Tetris and shouldn't be sold at all.
+
+
+ - Programming & Testing
+
+	"BigETI"
+
+
+ - Sound API
+
+	"Firelight Technologies" - FMOD Ex
+
+
+ - Graphics Card API
+
+	"OpenGL Developers" - OpenGL & GLUT
+
+
+ - Voice & Sound Effects
+
+	"BigETI"
+
+
+ - Music
+
+	"Pattiasina24"	( newgrounds.com ) - Introactive
+	"Pattiasina24"	( newgrounds.com ) - Growth
+	"cork279"	( newgrounds.com ) - Journey
+
+
+ - Textures/Art
+
+	"Guillermo" ( http://gamecult.umwblogs.org )	- Tetris Heart; Used as the loading screen <3
+	"Firelight Technologies"			- FMOD Logo
+	"OpenGL Developers"				- OpenGL Logo
+	"BigETI"					- Additional Textures, Menu Design, etc.

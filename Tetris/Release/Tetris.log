@@ -1,0 +1,10 @@
+﻿  audio.cpp
+f:\dev\cpp\projekte\tetris\tetris\audio.h(2): fatal error C1083: Cannot open include file: 'fmod\fmod.hpp': No such file or directory
+  game.cpp
+f:\dev\cpp\projekte\tetris\tetris\audio.h(2): fatal error C1083: Cannot open include file: 'fmod\fmod.hpp': No such file or directory
+  main.cpp
+main.cpp(8): fatal error C1083: Cannot open include file: 'GL/glut.h': No such file or directory
+  objects.cpp
+f:\dev\cpp\projekte\tetris\tetris\audio.h(2): fatal error C1083: Cannot open include file: 'fmod\fmod.hpp': No such file or directory
+  textures.cpp
+f:\dev\cpp\projekte\tetris\tetris\audio.h(2): fatal error C1083: Cannot open include file: 'fmod\fmod.hpp': No such file or directory

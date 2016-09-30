@@ -1,0 +1,36 @@
+<?xml version="1.0" standalone="no" ?>
+<!DOCTYPE project PUBLIC "-//audacityproject-1.3.0//DTD//EN" "http://audacity.sourceforge.net/xml/audacityproject-1.3.0.dtd" >
+<project xmlns="http://audacity.sourceforge.net/xml/" projname="triple_robot_data" version="1.3.0" audacityversion="1.3.14-beta" sel0="-0.2600000000" sel1="0.7443083900" vpos="0" h="0.0000000000" zoom="172.2656250000" rate="44100.0">
+	<tags>
+		<tag name="GENRE" value="Game"/>
+		<tag name="YEAR" value="2013"/>
+		<tag name="ARTIST" value="Ethem Kurt"/>
+		<tag name="COMMENTS" value="Game Sound"/>
+	</tags>
+	<wavetrack name="Tonspur" channel="0" linked="1" mute="0" solo="0" height="150" minimized="0" rate="44100" gain="0.354813" pan="0.0">
+		<waveclip offset="-0.26000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="44290">
+				<waveblock start="0">
+					<simpleblockfile filename="e00005b7.au" len="11466" min="0.0" max="0.895073" rms="0.28249"/>
+				</waveblock>
+				<waveblock start="11466">
+					<simpleblockfile filename="e0000eb0.au" len="32824" min="-7.020324" max="7.274108" rms="0.75089"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Tonspur" channel="1" linked="0" mute="0" solo="0" height="150" minimized="0" rate="44100" gain="0.354813" pan="0.0">
+		<waveclip offset="-0.26000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="44290">
+				<waveblock start="0">
+					<simpleblockfile filename="e0000d4a.au" len="11466" min="0.0" max="1.193234" rms="0.359407"/>
+				</waveblock>
+				<waveblock start="11466">
+					<simpleblockfile filename="e00008eb.au" len="32824" min="-7.079667" max="7.10481" rms="0.754717"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+</project>

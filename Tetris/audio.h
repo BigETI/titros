@@ -1,0 +1,65 @@
+#pragma once
+#include <fmod\fmod.hpp>
+
+enum GAME_SOUND_ENUM
+{
+	GAME_MUSIC_INTRO,
+	GAME_MUSIC_PARTY,
+	GAME_MUSIC_CLASSIC,
+	GAME_SOUND_WELCOME,
+	GAME_SOUND_PARTY,
+	GAME_SOUND_CLASSIC,
+	GAME_SOUND_SWOOSH,
+	GAME_SOUND_MENU_HOVER,
+	GAME_SOUND_MENU_SELECT,
+	GAME_SOUND_READY,
+	GAME_SOUND_GO,
+	GAME_SOUND_PAUSE,
+	GAME_SOUND_GAME_OVER,
+	GAME_SOUND_MOVE,
+	GAME_SOUND_ROTATE,
+	GAME_SOUND_DROP,
+	GAME_SOUND_DROP_FAST,
+	GAME_SOUND_CLEAR_LINES,
+	GAME_SOUND_BOMB,
+	GAME_SOUND_EXPLOSION,
+	GAME_SOUND_SINGLE,
+	GAME_SOUND_DOUBLE,
+	GAME_SOUND_TRIPLE,
+	GAME_SOUND_TETRIS,
+	GAME_SOUND_LEVEL_UP,
+	NUM_GAME_SOUNDS
+};
+
+enum GAME_SOUND_CHANNEL_ENUM
+{
+	GAME_SOUND_CHANNEL_MUSIC,
+	GAME_SOUND_CHANNEL_EFFECT_PRI,
+	GAME_SOUND_CHANNEL_EFFECT_SEC,
+	NUM_GAME_SOUND_CHANNELS
+};
+
+class audioStream
+{
+	public:
+		FMOD::System *fmodSystem;
+		FMOD_RESULT result;
+
+		unsigned int version;
+		int numdrivers;
+		FMOD_SPEAKERMODE speakermode;
+		FMOD_CAPS caps;
+		char name[256];
+		
+		FMOD::Channel *channel[NUM_GAME_SOUND_CHANNELS];
+		FMOD::Sound *sound[NUM_GAME_SOUNDS];
+
+		void initializeSound();
+		void updateSound();
+		void loadSounds();
+
+		void playSound(GAME_SOUND_ENUM sound_id);
+		void pauseChannel(GAME_SOUND_CHANNEL_ENUM channel_id);
+		void unpauseChannel(GAME_SOUND_CHANNEL_ENUM channel_id);
+		void setVolume(GAME_SOUND_CHANNEL_ENUM channel_id, float volume);
+};
